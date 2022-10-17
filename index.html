@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Is Your Birthday Lucky?</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">🥳 Is Your Birthday Lucky? 🥳</h1>
+      <p class="details">
+        Has this question ever bothered you? We've summoned the numerology gods
+        to find the answer for you.Enter your date of birth and lucky number to
+        find out!
+      </p>
+      <label class="input-label" for="dob">Date of Birth:</label>
+      <input class="input" id="dob" type="date" />
+      <label class="input-label" for="lucky-num">Lucky Number:</label>
+      <input
+        placeholder="Enter a number"
+        class="input"
+        id="lucky-num"
+        type="text"
+      />
+      <button id="check-btn">Try your Luck</button>
+      <p id="msg"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
